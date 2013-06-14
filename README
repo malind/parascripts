@@ -1,0 +1,5 @@
+A set of simple scripts to make gps log download, management and archiving a bit easier for paragliding.
+
+gpsdmp.py is a script that wraps gpsdump. It Can batch download multiple logs in one run and puts them in a map per day named with the log time as filename (130612/150055.kml). Writes both .kml and .igc.
+
+traceanalyze.py calculates flight duration but is way simplistic and doesn't work very well.
